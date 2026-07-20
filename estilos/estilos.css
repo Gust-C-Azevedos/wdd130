@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+/* Resetar CCS do meu projeto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
@@ -27,11 +34,14 @@ h1 {
 }
 
 main img {
+    margin-left: 20px;
+    margin-bottom: 20px;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -40,23 +50,26 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1 rem;
-    border: 1px solid rgb(0, 0, 0 / 0.2);
     /* 1 */
-    padding: 1rem;
-    background-color: #eee;
+
     color: #333;
     text-align: center;
 
 }
 
 aside img {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
+aside h2 {
+    position: 10px;
+    top: 10px;
+    left: 200 px;
+}
+
 main img {
-    width: 200px;
+    width: 150;
     height: auto;
 }
 
@@ -64,4 +77,16 @@ footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/*Seletores de Classe*/
+.caixa {
+    border: 1px solid rgb(0, 0, 0 / 0.2);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #eee;
+}
+
+.indentacao {
+    padding-left: 2rem;
 }
