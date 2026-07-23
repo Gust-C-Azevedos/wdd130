@@ -1,0 +1,158 @@
+Código CSS (wwr/estilos/rafting.css) CSS
+
+/* Definição de Variáveis CSS Globais */
+:root {
+    --cor-primaria: #055a05;
+    /* Verde floresta */
+    --cor-secundaria: #f4a261;
+    /* Bege / Laranja médio */
+    --cor-destaque1: #264653;
+    /* Azul escuro acinzentado */
+    --cor-destaque2: #e9c46a;
+    /* Amarelo claro dourado */
+    --fonte-titulo: "Times New Roman", "Georgia", serif;
+    --fonte-body: Arial, Helvetica, sans-serif;
+}
+
+/* Resetar CSS do meu projeto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações Globais do Body */
+body {
+    font-family: var(--fonte-body);
+    color: var(--cor-destaque1);
+    background-color: #f9f9f9;
+}
+
+/* Limitação de Largura Centralizada */
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* Estilos Globais de Títulos */
+h1,
+h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+/* Margens e Espaçamentos Padrão */
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* Estilização do Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-primaria);
+    padding: 10px 16px;
+}
+
+header .logo {
+    width: 80px;
+    height: auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: var(--cor-destaque2);
+}
+
+/* Estilização da Seção Hero e Sobreposição */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Título H1 Sobreposto à Imagem Hero */
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.85;
+    background-color: var(--cor-destaque1);
+    color: #ffffff;
+}
+
+/* Cartão/Artigo Sobreposto na Parte Inferior do Hero */
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    margin-left: 12px;
+    border-radius: 4px;
+}
+
+.hero article p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+/* Estilo para Redes Sociais no Rodapé */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-destaque1);
+    color: #ffffff;
+    padding: 10px 16px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.redes-sociais img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
