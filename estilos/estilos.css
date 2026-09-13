@@ -20,17 +20,19 @@ body {
 }
 
 nav {
-    background-color: steelblue;
+    background-color: darkblue;
+    padding: 10px;
+
 }
 
 nav a {
     color: white;
-    padding: 10px;
+    padding: 20px;
     display: block;
 }
 
 h1 {
-    color: steelblue;
+    color: darkblue;
 }
 
 main img {
@@ -38,14 +40,14 @@ main img {
     margin-bottom: 20px;
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
 }
 
 p {
-    padding: 0;
+    padding: 10;
 }
 
 aside {
