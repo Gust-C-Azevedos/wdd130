@@ -22,7 +22,6 @@ body {
 nav {
     background-color: darkblue;
     padding: 10px;
-
 }
 
 nav a {
@@ -33,6 +32,10 @@ nav a {
 
 h1 {
     color: darkblue;
+}
+
+main {
+    max-width: 840px;
 }
 
 main img {
@@ -47,43 +50,33 @@ main img {
 }
 
 p {
-    padding: 10;
+    padding: 0;
 }
 
 aside {
     width: 20rem;
-    /* 1 */
-
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
     color: #333;
     text-align: center;
-
 }
 
 aside img {
-    width: 150px;
-    height: auto;
-}
-
-aside h2 {
-    position: 10px;
-    top: 10px;
-    left: 200 px;
-}
-
-main img {
-    width: 150;
+    width: 200px;
     height: auto;
 }
 
 footer {
-    margin-top: 1em;
+    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
 
-/*Seletores de Classe*/
+/* Seletores de Classe */
 .caixa {
-    border: 1px solid rgb(0, 0, 0 / 0.2);
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     margin: 1rem;
     background-color: #eee;
