@@ -54,32 +54,11 @@ nav, p, section, article{
 
 .socialmedia a{
     text-decoration: none;
-}
-
-div.hero{
-    position: relative;
-    width: 100%;
-    height: auto;
-}
+    }
 
 .hero{
     position: relative;
 }
-
-.hero h1{
-
-    position: absolute;
-
-}
-.hero img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero article{
-    position: absolute;
-    }
 
 .hero img{
     display: block;
@@ -99,7 +78,6 @@ h1{
 }
 
 .hero article img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
+    float: right;
+    width: 125px;
+    }
