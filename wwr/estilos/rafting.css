@@ -56,6 +56,12 @@ nav, p, section, article{
     text-decoration: none;
 }
 
+div.hero{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
 .hero{
     position: relative;
 }
@@ -76,11 +82,6 @@ h1{
     background-color: var(--cor-destaque1);
     color: #264653; /* texto branco - certifique-se de que haja contraste suficiente com a cor de fundo */
 }
-.hero article{
-    position: relative;
-
-}
-
 .hero article img{
     float: right;
     width: 10px;
