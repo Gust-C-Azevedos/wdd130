@@ -38,7 +38,7 @@ header, main, footer{
 
 h1, h2{
     font-family: var(--fonte-titulo);
-    color: var(--cor-secundaria);
+    color: var(--cor-primaria);
     text-align: center;
 }
 
@@ -49,6 +49,7 @@ nav, p, section, article{
 
 .redes-sociais a{
     text-decoration: none;
+
 }
 
 .socialmedia a{
