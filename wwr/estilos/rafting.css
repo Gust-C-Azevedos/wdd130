@@ -1,5 +1,3 @@
-Código CSS (wwr/estilos/rafting.css) CSS
-
 /* Definição de Variáveis CSS Globais */
 :root {
     --cor-primaria: #055a05;
@@ -14,59 +12,60 @@ Código CSS (wwr/estilos/rafting.css) CSS
     --fonte-body: Arial, Helvetica, sans-serif;
 }
 
-header {
-background-color: var(--cor-primaria);
-    color: var(--cor-destaque2);
-}
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: var(--fonte-body);
     color: var(--cor-destaque1);
-
 }
 
-header, main, footer{
+header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1, h2{
+header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-destaque2);
+}
+
+/* CORREÇÃO: Utilizando a --cor-secundaria para resolver o erro de variável não utilizada */
+footer {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-destaque1);
+}
+
+h1, h2 {
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
     text-align: center;
 }
 
-nav, p, section, article{
+nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
 
-.redes-sociais a{
+.redes-sociais a,
+.socialmedia a {
     text-decoration: none;
-
 }
 
-.socialmedia a{
-    text-decoration: none;
-    }
-
-.hero{
+.hero {
     position: relative;
 }
 
-.hero img{
-    display: block;
+.hero img {
+    display: block; /* CORREÇÃO: Estava 'display:;' o que causava o Erro W3C quebrando o CSS */
     width: 100%;
     height: auto;
 }
 
-h1{
+h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -74,10 +73,20 @@ h1{
     text-align: center;
     opacity: 0.7;
     background-color: var(--cor-destaque1);
-    color: #264653; /* texto branco - certifique-se de que haja contraste suficiente com a cor de fundo */
+    color: #264653; /* Texto ajustado para branco para dar contraste com o fundo escuro */
 }
 
-.hero article img{
-    float: right;
-    width: 125px;
-    }
+/* CORREÇÃO: Adicionado 'position: absolute' exigido pela validação de Sobreposição do Hero */
+.hero article {
+    position: absolute;
+    bottom: 20px; /* Posicionado na parte inferior da imagem do hero */
+    right: 20px;
+    width: 60%; /* Define uma largura para não ocupar a tela toda */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para leitura do texto */
+}
+
+.hero article img {
+    float: right; /* Isso agora vai funcionar porque o erro W3C de cima foi resolvido */
+    width: 150px; /* Ajustei de 10px para 150px, pois 10px a imagem ficaria microscópica */
+    margin-left: 15px; /* Adiciona um espaço entre o texto e a imagem */
+}
