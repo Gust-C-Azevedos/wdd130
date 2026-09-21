@@ -83,8 +83,8 @@ h1{
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--cor-destaque1);
-    color: #fff; /* texto branco - certifique-se de que haja contraste suficiente com a cor de fundo */
+    background-color: var(--cor-secundaria);
+    color: #f4a261; /* texto branco - certifique-se de que haja contraste suficiente com a cor de fundo */
 }
 
 .hero article img{
