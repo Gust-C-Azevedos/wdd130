@@ -43,29 +43,35 @@ main img {
     margin-bottom: 20px;
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
 }
 
-p {
-    padding: 0;
+ul {
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #eee;
 }
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 50px;
+    left: 120px;
 }
 
 footer {
@@ -83,5 +89,6 @@ footer {
 }
 
 .indentacao {
+
     padding-left: 2rem;
 }
