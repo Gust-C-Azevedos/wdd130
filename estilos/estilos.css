@@ -73,6 +73,17 @@ ul {
     background-color: #eee;
 }
 
+aside {
+    width: 20rem;
+    margin: 50em;
+    border: 5em;
+    padding: 0;
+    background-color: #000;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+
 aside img {
     width: 200px;
     height: auto;
@@ -82,23 +93,22 @@ aside h2 {
     position: absolute;
     top: 5px;
     left: 80px;
-}
 
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
+    footer {
+        margin-top: 15px;
+        border-top: 1px solid #000;
+        text-align: center;
+    }
 
-/* Seletores de Classe */
-.caixa {
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    margin: 1rem;
-    background-color: #eee;
-}
+    /* Seletores de Classe */
+    .caixa {
+        border: 1px solid rgb(0 0 0 / 0.2);
+        padding: 1rem;
+        margin: 1rem;
+        background-color: #eee;
+    }
 
-.indentacao {
+    .indentacao {
 
-    padding-left: 2rem;
-}
+        padding-left: 2rem;
+    }
