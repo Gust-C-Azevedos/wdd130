@@ -59,6 +59,10 @@ ul {
 
 aside {
     width: 20rem;
+    margin: 50em;
+    border: 5em;
+    padding: 0;
+    background-color: #000;
     color: #333;
     text-align: center;
     position: relative;
@@ -73,6 +77,11 @@ aside h2 {
     position: absolute;
     top: 5px;
     left: 80px;
+}
+
+p {
+    padding: 0;
+
 }
 
 footer {
