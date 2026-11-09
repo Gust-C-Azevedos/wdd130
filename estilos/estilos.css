@@ -58,7 +58,7 @@ p {
 aside {
     width: 20em;
     margin: 1em;
-    border: 15px solid rgba(0, 0, 0, 0.2);
+    border: 5px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
     background-color: #eee;
     color: #333;
@@ -71,17 +71,6 @@ ul {
     padding: 1rem;
     margin: 1rem;
     background-color: #eee;
-}
-
-aside {
-    width: 20rem;
-    margin: 50em;
-    border: 5em;
-    padding: 0;
-    background-color: #000;
-    color: #333;
-    text-align: center;
-    position: relative;
 }
 
 aside img {
