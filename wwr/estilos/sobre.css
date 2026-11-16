@@ -10,8 +10,8 @@ Código CSS (wwr/estilos/rafting.css) CSS
     /* Azul escuro acinzentado */
     --cor-destaque2: #e9c46a;
     /* Amarelo claro dourado */
-    --fonte-titulo: "Times New Roman", "Georgia", serif;
-    --fonte-body: Arial, Helvetica, sans-serif;
+    --fonte-titulo: "Times New Roman", "Georgia", "serif";
+    --fonte-body: "Arial", "Helvetica", "sans-serif";
 }
 
 /* Resetar CSS do meu projeto */
@@ -35,6 +35,7 @@ footer {
     width: 840px;
     margin: 0 auto;
 }
+
 
 /* Estilos Globais de Títulos */
 h1,
